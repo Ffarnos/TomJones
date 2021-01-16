@@ -11,7 +11,7 @@ function App() {
         <div className="App">
         <header className="App-header">
             <img src={headerImage} className="TomJonesLogo" alt="logo"/>
-            <button to="/menu" className="menuButton">MENÚ</button>
+            <Link to="/menu" className="menuButton">MENÚ</Link>
             <Link to="/tragos" className="menuButton">TRAGOS</Link>
             <Link to="/sinalcohol" className="menuButton">SIN ALCOHOL</Link>
             <Link to="/botellas" className="menuButton">BOTELLAS</Link>

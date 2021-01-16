@@ -5,13 +5,13 @@ import App from './App';
 import Menu from './Menu';
 import Tragos from './Tragos';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Switch, Route} from "react-router-dom";
+import {HashRouter, Switch, Route} from "react-router-dom";
 import SinAlcohol from "./SinAlcohol";
 import Botellas from "./Botellas";
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
           <Switch>
               <Route path="/menu"><Menu/></Route>
               <Route path="/tragos"><Tragos/></Route>
@@ -19,7 +19,7 @@ ReactDOM.render(
               <Route path="/botellas"><Botellas/></Route>
               <Route path="/"><App/></Route>
           </Switch>
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
