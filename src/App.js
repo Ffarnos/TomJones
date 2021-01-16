@@ -3,7 +3,6 @@ import headerImage from './assets/tomjones-background.png';
 import heineken from './assets/heineken-background.png';
 import sushi from './assets/sushi-background.png';
 import './App.css';
-import Tragos from './Tragos';
 import {Link} from "react-router-dom";
 
 function App() {
