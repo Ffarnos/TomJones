@@ -5,13 +5,13 @@
 }
 
 .SinAlcohol {
-    background-image: url("./assets/sinalcohol.jpg");
+    background-image: url("./assets/sinalcohol.webp");
     background-size: 100% 100%;
     min-height: 100vh;
 }
 
 .Botellas {
-    background-image: url("./assets/botellas.png");
+    background-image: url("./assets/botellas.webp");
     background-size: 100% 100%;
     min-height: 100vh;
 }
