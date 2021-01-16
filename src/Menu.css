@@ -1,0 +1,19 @@
+
+.Menu {
+    width: 100%;
+    background-size: cover;
+}
+
+.SinAlcohol {
+    background-image: url("./assets/sinalcohol.jpg");
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.Botellas {
+    background-image: url("./assets/botellas.png");
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+

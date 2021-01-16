@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import headerImage from './assets/tomjones-background.png';
+import heineken from './assets/heineken-background.png';
+import sushi from './assets/sushi-background.png';
 import './App.css';
+import Tragos from './Tragos';
+import {Link} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+        <header className="App-header">
+            <img src={headerImage} className="TomJonesLogo" alt="logo"/>
+            <button to="/menu" className="menuButton">MENÚ</button>
+            <Link to="/tragos" className="menuButton">TRAGOS</Link>
+            <Link to="/sinalcohol" className="menuButton">SIN ALCOHOL</Link>
+            <Link to="/botellas" className="menuButton">BOTELLAS</Link>
+            <div className="menuDoubleImage">
+                <img src={heineken} className="menuDoubleImage" alt={"logo"}/>
+                <img src={sushi} className="menuDoubleImage" alt="logo"/>
+            </div>
+        </header>
+        </div>
+
+    );
 }
 
 export default App;
