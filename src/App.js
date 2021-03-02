@@ -2,7 +2,7 @@ import React from 'react';
 import headerImage from './assets/tomjones-background.png';
 import heineken from './assets/heineken-background.png';
 import sushi from './assets/sushi-background.png';
-import branca from './assets/branca.jpg';
+import branca from './assets/branca.png';
 
 import './App.css';
 import {Link} from "react-router-dom";
