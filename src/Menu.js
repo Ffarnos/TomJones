@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css'
-import headerImage from "./assets/menu.jpg";
+import headerImage from "./assets/menu.png";
 
 function Menu() {
     return (
