@@ -15,6 +15,7 @@ function App() {
             <img src={sushi} className="SushiLogo" alt={"logo"}/>
             <Link to="/menu" className="menuButton">MENÚ</Link>
             <Link to="/tragos" className="menuButton">TRAGOS</Link>
+            <Link to="/vinos" className="menuButton">VINOS</Link>
             <Link to="/sinalcohol" className="menuButton">SIN ALCOHOL</Link>
             <Link to="/botellas" className="menuButton">BOTELLAS</Link>
             <div className="menuDoubleImage">
