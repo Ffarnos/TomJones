@@ -9,16 +9,17 @@ import {HashRouter, Switch, Route} from "react-router-dom";
 import SinAlcohol from "./SinAlcohol";
 import Botellas from "./Botellas";
 import Vinos from "./Vinos";
-
-ReactDOM.render(
-  <React.StrictMode>
-      <HashRouter>
-          <Switch>
+/*
               <Route path="/menu"><Menu/></Route>
               <Route path="/tragos"><Tragos/></Route>
               <Route path="/vinos"><Vinos/></Route>
               <Route path="/sinalcohol"><SinAlcohol/></Route>
               <Route path="/botellas"><Botellas/></Route>
+ */
+ReactDOM.render(
+  <React.StrictMode>
+      <HashRouter>
+          <Switch>
               <Route path="/"><App/></Route>
           </Switch>
       </HashRouter>
