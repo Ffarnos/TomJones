@@ -2,13 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Menu from './Menu';
-import Tragos from './Tragos';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter, Switch, Route} from "react-router-dom";
-import SinAlcohol from "./SinAlcohol";
-import Botellas from "./Botellas";
-import Vinos from "./Vinos";
 /*
               <Route path="/menu"><Menu/></Route>
               <Route path="/tragos"><Tragos/></Route>
