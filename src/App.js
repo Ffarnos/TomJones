@@ -2,7 +2,7 @@ import React from 'react';
 import headerImage from './assets/tomjones-background.png';
 
 import './App.css';
-import {Link} from "react-router-dom";
+
 /*
             <img src={sushi} className="SushiLogo" alt={"logo"}/>
             <Link to="/menu" className="menuButton">MENÚ</Link>
