@@ -2,20 +2,30 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Menu from './Menu';
+import Tragos from './Tragos';
+import Vinos from './Vinos';
+import SinAlcohol from './SinAlcohol';
+import Botellas from './Botellas';
+
+
+
+
 import reportWebVitals from './reportWebVitals';
 import {HashRouter, Switch, Route} from "react-router-dom";
 /*
-              <Route path="/menu"><Menu/></Route>
-              <Route path="/tragos"><Tragos/></Route>
-              <Route path="/vinos"><Vinos/></Route>
-              <Route path="/sinalcohol"><SinAlcohol/></Route>
-              <Route path="/botellas"><Botellas/></Route>
+
  */
 ReactDOM.render(
   <React.StrictMode>
       <HashRouter>
           <Switch>
               <Route path="/"><App/></Route>
+              <Route path="/menu"><Menu/></Route>
+              <Route path="/tragos"><Tragos/></Route>
+              <Route path="/vinos"><Vinos/></Route>
+              <Route path="/sinalcohol"><SinAlcohol/></Route>
+              <Route path="/botellas"><Botellas/></Route>
           </Switch>
       </HashRouter>
   </React.StrictMode>,
