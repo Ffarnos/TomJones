@@ -41,13 +41,26 @@
   margin-top: 10px;
   margin-bottom: 20px;
   height: 55px;
-
 }
 
-.menuDoubleImage2 {
-  margin-top: 10px;
-  height: 100px;
+.menuDoubleImageApostoles {
+  height: 55px;
 }
+
+.menuDoubleImageHeineken {
+  margin-bottom: 10px;
+  margin-left: 15px;
+  height: 40px;
+}
+
+.menuDoubleImageBranca {
+  margin-right: 10px;
+  height: 80px;
+}
+
+
+
+
 
 .menuButton {
   width: 40%;
