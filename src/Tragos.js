@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css'
-import headerImage from "./assets/tragos.png";
+import headerImage from "./assets/tragos.jpg";
 
 function Tragos() {
     return (
