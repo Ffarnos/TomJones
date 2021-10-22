@@ -8,7 +8,7 @@ function Vinos() {
 
     var hour = new Date().getHours().toLocaleString("es-AR", {timeZone: "America/Argentina/Buenos_Aires"})
 
-    if (hour => 0 && hour <= 8) {
+    if (hour >= 0 && hour <= 8) {
         return (
             <img src={headerImageAfter12} className="Menu" alt="logo"/>
         );
