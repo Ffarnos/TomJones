@@ -5,7 +5,7 @@ import headerImage from "./assets/tragos.jpg";
 
 function Tragos() {
     return (
-        <img src={headerImage} className="Tragos" alt="logo"/>
+        <img src={headerImage} className="Menu" alt="logo"/>
     );
 
 }

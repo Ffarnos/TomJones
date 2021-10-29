@@ -10,7 +10,9 @@ import SinAlcohol from "./SinAlcohol";
 import Botellas from "./Botellas";
 import Vinos from "./Vinos";
 
+
 ReactDOM.render(
+
   <React.StrictMode>
       <HashRouter>
           <Switch>
