@@ -4,6 +4,11 @@
     background-size: cover;
 }
 
+.Tragos {
+    background-size: 100% 100%;
+    margin-left: 350px;
+}
+
 .SinAlcohol {
     background-image: url("./assets/sinalcohol.jpg");
     background-size: 100% 100%;
